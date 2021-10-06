@@ -15,57 +15,64 @@
 
 // Books
 
-// We need an API
-// to get all books
-// to get specific book
-// to get a list of books based on category
-// to get a list of books based on author *
+https://github.com/pavankpdev/bookapib1
+// GET
+// to get all books ✅ 📌DONE
+// to get specific book ✅ 📌DONE
+// to get a list of books based on category✅ 📌DONE
+// to get a list of books based on author -> [Task]🔥 📕
+
+// POST
+// New Book ✅ 📌DONE
+
+// PUT
+// Update book details✅ 📌DONE
+// update/add new author✅ 📌DONE
+
+// DELETE
+// delete a book✅ 📌DONE
+// delete a author from a book✅ 📌DONE
+
+// ---------------------------------------------------------------------------------------
 
 // Author
 
 // We need an API
-// to get all authors
-// to get specific author
-// to get a list of authors based on a book.
+
+// GET
+// to get all authors✅ 📌DONE
+// to get specific author [Task]🔥  📕DONE
+// to get a list of authors based on a book. ✅  📕DONE
+
+// POST
+// New Author ✅ 📌DONE 
+
+// PUT
+// update Author name using id [Task] 🔥DONE
+
+// DELETE
+// Delete an author [Task] 🔥🚀DONE
+
+// ---------------------------------------------------------------------------------------
 
 // Publication
 
 // We need an API
-// to get all publications
-// to get specific publication
-// to get a list of publications based on a book.
 
+// GET
+// to get all publications ✅  📕DONE
+// to get specific publication [Task]🔥  📕DONE
+// to get a list of publications based on a book. [Task]🔥  📕DONE
 
-https://github.com/pavankpdev/bookapib1
-/*
-shapeAI.put("/publication/update/book/:isbn", (req, res) => {
-   // update the publication database
-   database.publications.forEach((publication) => {
-     if (publication.id === req.body.pubId) {
-       return publication.books.push(req.params.isbn);
-     }
-   });
- 
-   // update the book database
-   database.books.forEach((book) => {
-     if (book.ISBN === req.params.isbn) {
-       book.publication = req.body.pubId;
-       return;
-     }
-   });
- 
-   return res.json({
-     books: database.books,
-     publications: database.publications,
-     message: "Successfully updated publication",
-   });
- });
- */
+// POST
+// Add new publication [task] 🔥  📕DONE
 
- /node_modules
+// PUT
+// update publication name using id [Task] 🔥
+// update/add new book to a publication✅ Done
 
-package-lock.json
+// DELETE
+// delete a book from publication ✅DONE
+// delete a publication [Task] 🔥🚀DONE
 
-
-delete an author
-delete a publication
+// Add mongoose validation to All the models [Task] 🔥
